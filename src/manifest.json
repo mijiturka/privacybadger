@@ -478,6 +478,17 @@
     },
     {
       "js": [
+        "js/firstparties/lib/utils.js",
+        "js/firstparties/reddit.js"
+      ],
+      "matches": [
+        "https://*.reddit.com/*",
+        "http://*.reddit.com/*"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "js": [
         "js/contentscripts/utils.js",
         "js/contentscripts/clobbercookie.js",
         "js/contentscripts/clobberlocalstorage.js",
